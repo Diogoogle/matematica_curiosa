@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: antiquewhite;
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer{
+    background:radial-gradient(blue,purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+form img{
+    max-width: 300px;
+    
+}
+
+#trigonometria{
+    background-color: beige;
+    padding: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.img_trig{
+    width: 100%;
+}
+
+footer a{
+    color:bisque;
+    border: 2px solid black;
+    padding: 20px;
+    font-size:larger;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+
+img{
+    border: 1px solid black;
+}
+
+nav{
+    background: linear-gradient(blue,purple);
+    /*position: fixed;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0 20px 0;
+}
+
+nav a{
+    padding:10px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    color: bisque;
+    text-decoration: none;
+}
+
+
+footer a:hover{
+    background: rgb(1, 4, 179);
+    color: rgb(110, 0, 201);
+    border: 2px solid black;
+    scale: 1.05;
+    color: white;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    margin-top: 10px;
+    background-color:aquamarine;
+}
+
+.img_form{
+    margin: 20px;
+    box-shadow: 5px 5px black;
+}
+
+#pit_ima{
+    width: 200px;
+}
+
+nav a:hover{
+    background-color: rgb(1, 4, 179);
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+footer a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form img{
+    width: 80%;
+    height: 80%;
+
+}
+
+aside{
+    background-color: rgb(196, 214, 27);
+}
+
+p{
+    padding: 20px;
+    text-align: justify;
+}
+
+aside h1{
+    margin-left: 25%;
+}
+#curiosidades_form{
+    border: 2px solid black;
+}
+
+@media screen and (max-width:700px){
+    nav{
+        flex-flow: column wrap;
+    }
+}
+
+@media screen and (min-width: 900px){
+    #curiosidades_form{
+        display: flex;
+        
+    }
+    form{
+        width: 50%;
+    }
+
+    form img{
+        height: 200px;
+    }
+    aside{
+        width:50%;
+    }
+}
