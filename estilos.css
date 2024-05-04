@@ -54,7 +54,6 @@ img{
 
 nav{
     background: linear-gradient(blue,purple);
-    /*position: fixed;*/
     display: flex;
     align-items: center;
     justify-content: center;
