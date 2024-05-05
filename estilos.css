@@ -18,6 +18,7 @@ main{
 }
 
 footer{
+    height: 5%;
     bottom: 0;
     width: 100%;
     background:radial-gradient(blue,purple);
@@ -35,7 +36,6 @@ form img{
     flex: 1;
     background-color: beige;
     padding: 20px;
-    margin-bottom: 100px;
 }
 
 html{
