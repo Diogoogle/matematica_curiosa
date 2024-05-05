@@ -8,11 +8,19 @@ header{
 }
 
 body{
+    min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
 }
 
+main{
+    flex: 1;
+}
+
 footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background:radial-gradient(blue,purple);
     display: flex;
     align-items: center;
@@ -25,6 +33,7 @@ form img{
 }
 
 #trigonometria{
+    flex: 1;
     background-color: beige;
     padding: 20px;
 }
