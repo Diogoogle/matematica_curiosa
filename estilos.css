@@ -36,6 +36,7 @@ form img{
     flex: 1;
     background-color: beige;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 html{
